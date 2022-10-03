@@ -35,6 +35,10 @@ aside {
     max-height: 150px;
 }
 
+h1 {
+    margin-top: 0px;
+}
+
 main {
     display: flex;
     flex-direction: row;
