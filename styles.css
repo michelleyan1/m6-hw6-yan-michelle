@@ -5,7 +5,7 @@
 }
 
 header, footer {
-    background-color: #967D69;
+    background-color: #605543;
     padding: 20px 0;
     color: white;
 }
@@ -30,6 +30,9 @@ main, .navigation {
 aside {
     float:right;
     max-width: 250px;
+    background-color: rgba(245, 245, 255, 0.681);
+    padding-left: 10px;
+    max-height: 150px;
 }
 
 main {
@@ -37,6 +40,7 @@ main {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 20px;
+    
 }
 
 body {
@@ -45,6 +49,11 @@ body {
     display: flex;
     flex-direction: column;
     background: url(./images/beige-tiles.png);
+}
+
+section {
+    background-color: rgba(245, 245, 255, 0.681);
+    padding: 20px;
 }
 
 .socials {
