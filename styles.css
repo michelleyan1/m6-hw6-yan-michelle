@@ -1,0 +1,64 @@
+.navigation {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+header, footer {
+    background-color: #967D69;
+    padding: 20px 0;
+    color: white;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+}
+
+.link {
+    margin: 0 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+main, .navigation {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 12px 12px;
+}
+
+aside {
+    float:right;
+    max-width: 250px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(./images/beige-tiles.png);
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
